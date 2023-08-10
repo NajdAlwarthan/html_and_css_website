@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+
+background-color:rgb(229, 229, 229);
+width: 100%;
+position: fixed;
+z-index: 999;
+justify-content: space-between;
+display: flex;
+align-items: center;
+padding:1% 5%;
+}
+.logo{
+
+text-decoration: none;
+color: rgb(0, 0, 53);
+text-transform: uppercase;
+font-weight: 600;
+font-size: 1.2rem;
+
+}
+.navgtion a{
+
+text-decoration: none;
+color: rgb(113, 172, 255);
+text-transform: uppercase;
+font-weight: 500;
+font-size: 1rem;
+padding-left: 20px;
+}
+.navgtion a:hover{
+
+color: rgb(50, 116, 187);
+
+}
+section{
+
+    padding: 5% 5%
+}
+.main{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:url(im/space.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+.main span{
+
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.main h3{
+
+    color:rgb(158, 200, 255);
+    font-weight: 500;
+
+}
+.main {
+
+line-height: 40px;
+
+
+}
+.solar-btn{
+   display: inline-block;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color : rgb(113, 172, 255);
+    text-decoration: none;
+    padding: 0.4375em 0.5875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:20px ;
+    margin-top: 20px;
+   
+}
+.solar-btn:hover{
+    transition: 0.7s ease;
+    background-color: rgb(50, 116, 187);
+    transform: scale(1.1);
+}
+.socal_icons a{
+color:whitesmoke;
+font-size: 1.4rem;
+padding-right: 10px;
+}
+.title{
+
+display: flex;
+justify-content: center;
+    color:rgb(50, 116, 187); 
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.contant{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.card{
+
+    background-color: white;
+    width: 21.24em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+}
+.card:hover{
+
+    transition: 0.7s ease;
+    transform: scale(1.1);
+}
+.icon{
+
+    color:rgb(50, 116, 187); 
+    font-size: 60px;
+    text-align: center;
+}
+.info h3{
+    color:rgb(50, 116, 187);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.info p{
+
+    text-align: center;
+}
+#ip{
+    color: white;
+}
+.solar-system{
+
+background-color: rgb(6, 25, 46);
+
+
+}
+.solar-system.contant{
+margin-top:30px;
+display: flex;
+}
+
+.procard{
+justify-content: space-between;
+background-color: white;
+border: 1px solid white;
+min-height: 10em;
+width: 20em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+.procard:hover{
+transform: scale(1.1);
+}
+.procard:hover .proimg{
+   opacity: 0.9;
+    }
+.proimg img{
+width: 100%;
+
+}
+.proinfo{
+
+    padding:1em;
+}
+.prop{
+
+font-size: 1.4rem;
+margin-bottom: 10px;
+}
+.more{ 
+text-decoration: none;
+font-weight: 600;
+padding-left: 90px;
+font-size: 1.1rem;
+color: blue;
+
+}
+span{
+    font-size:1.4rem;
+    font-weight:600;
+}
+.prop{
+    font-size: 1rem;
+    color:rgb(40, 40, 129)
+}
+
+.contact.icon{
+ font-size: 1em;;
+ color: black;
+}
+.contact.info h3{
+    color:black;
+
+}
+.phem p{
+
+    font-size: 1.4rem;
+}
+footer{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+}
+footer a{
+color: white;
+font-size: 1.2rem;
+padding-right: 10px;
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding: 0.1px 0.8px;
+        font-size: 1rem;
+    }
+    header .logo{
+        font-size: 0.9rem;
+    }
+    .navgtion a{
+     padding-left: 1px;
+     font-size: 0.7rem;
+    }
+    .title{
+
+        font-size: 1rem;
+    }
+    section{
+        padding: 1% 1%;
+    }
+    .main h2{
+     font-size:0.8rem;
+    }
+    .main h3{
+        font-size:0.8rem;
+       }
+       .main span{
+        font-size:1rem;
+       }
+       .contant{
+        flex-direction: column;
+        align-items: center;
+       }
+       .card{
+        width: 16.24em;
+        padding: 7px;
+        margin: 5px;
+    }
+    .card.info a{
+        text-align: center;
+         padding: 10px;
+        font-size: 1rem;
+    }
+    .info p{
+        font-size: 0.9rem;
+    }
+    
+   }
+   
+@media (max-width:1023px){
+    header{
+        padding: 0.2px 1px;
+    }
+    .navgtion a{
+     padding-left: 5px;
+    }
+    .title{
+
+        font-size: 1.2rem;
+    }
+    section{
+        padding: 1% 1%;
+    }
+    .main h2{
+     font-size:1.2rem;
+    }
+    .main h3{
+        font-size:1rem;
+       }
+       .main span{
+        font-size:1.6rem;
+       }
+       .contant{
+        flex-direction: column;
+        align-items: center;
+       }
+       .card{
+        width: 19.24em;
+        padding: 10px;
+        margin: 7px;
+    }
+    .card.info a{
+        text-align: center;
+         padding: 10px;
+        font-size: 0.9rem;
+    }
+   }
+
